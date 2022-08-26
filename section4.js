@@ -6,4 +6,6 @@ section4.classList.add("section4");
 wrapper.append(section4);
 section4.append(title);
 section4.append(carousel);
-title.innerHTML
+title.innerHTML = `
+    <p>TRENDING CATEGORIES</p>
+`;
