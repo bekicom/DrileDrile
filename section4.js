@@ -6,7 +6,6 @@ carousel.classList.add("carousel")
 section4.append(title);
 section4.append(carousel);
 title.innerHTML = "TRENDING CATEGORIES";
-
 const data = [
     {
         id: 1,
