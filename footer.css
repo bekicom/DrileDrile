@@ -7,7 +7,13 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
-
+body{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .wrapper{
     max-width: 1440px;
@@ -24,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;   
-    flex-direction: column; 
+    flex-direction: row; 
 }
 .footerJs{
     
@@ -34,8 +40,16 @@
     align-items: center;
     flex-direction: column;
 }
+.footer  .text{
+    width: 100%;
 
-.footer .footerJs .text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer  .text p{
+    
     font-weight: 400;
     font-size: 45px;
     line-height: 65px;
@@ -52,4 +66,9 @@
     background: #fff;
 }
 
-
+.yunalishlar{
+    
+    
+    display: flex;
+    flex-direction: column;
+}
