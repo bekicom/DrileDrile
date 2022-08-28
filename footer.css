@@ -4,15 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
+
+
 body{
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 .wrapper{
@@ -20,36 +21,32 @@ body{
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
-.footer {
+
+
+footer{
     width: 100%;
-    height: 559px;
-    background: url(./assets/bg.png) no-repeat;
+    height: 560px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: flex-start;   
-    flex-direction: row; 
-}
-.footerJs{
-    
-    width: 100%;
-    height: 558px;
-    display: flex;
-    align-items: center;
     flex-direction: column;
+    /* padding: 61px 141px 0 160px; */
+    background: url(./img/bg.png);
 }
-.footer  .text{
-    width: 100%;
 
+.text{
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 61px;
 }
-
-.footer  .text p{
-    
+.text p{
     font-weight: 400;
     font-size: 45px;
     line-height: 65px;
@@ -57,18 +54,55 @@ body{
 
     color: #424346;
 }
-.end{
-    width: 100%;
+
+.footerJs{
+    width: 1139px;
+    height: 217px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+   
+}
+
+.footerJs .yonalish{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footerJs .yonalish p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 224.68%;
+    /* or 54px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.035em;
+
+    color: #000000;
+}
+.footerJs .yonalish a{
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 224.68%;
+    /* or 45px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.035em;
+
+    color: #8A8A8A;
+}
+.botton{
+    width: 1366px;
     height: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
-}
-
-.yunalishlar{
-    
-    
-    display: flex;
-    flex-direction: column;
+    background: rgb(255, 255, 255);
 }

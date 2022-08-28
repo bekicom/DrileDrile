@@ -1,64 +1,75 @@
-const wrapper = document.querySelector('.wrapper');
-const footer = document.querySelector('.footer');
-const data = [
+const footer = document.querySelector("footer");
+const footerJs = document.querySelector(".footerJs")
+
+const logo = [
     {
-       
-        bolim: 'ABOUT US',
-        info: 'About Us',
-        contact: 'Contact Us',
-        privacy: 'Privacy Policy',
-        terms: 'Terms of Service',
-        email:'© Copyright 2022 | drile | All right reserved.',
-        
-    },
-    {
-       
-        bolim: 'ABOUT US',
-        info: 'About Us',
-        contact: 'Contact Us',
-        privacy: 'Privacy Policy',
-        terms: 'Terms of Service',
-        email:'© Copyright 2022 | drile | All right reserved.',
-        
-    },
-    {
-       
-        bolim: 'ABOUT US',
-        info: 'About Us',
-        contact: 'Contact Us',
-        privacy: 'Privacy Policy',
-        terms: 'Terms of Service',
-        email:'© Copyright 2022 | drile | All right reserved.',
-        
-    },
- 
+        logo: 'Drive'
+    }
 ]
 
-data.map((item) =>{
-    footer.innerHTML +=`
-    <div class = "footerJs">
+// logo.map((iteem) =>{
+//     footer.innerHTML +=`
+//     <div  class = "logo">
+//     <p>${iteem.logo}</p>
+//     </div>
+    
+//     `
+// })
+
+
+
+
+const data = [
+    {
+        logo: 'ABOUT US',
+        abaot: 'About Us',
+        contact: 'Contact Us',
+        privac: 'Privacy Policy',
+        terms: 'Terms of Service',
+    },
+    
+    {
+        logo: 'COMPANY',
+        abaot: ' Explore World',
+        contact: 'Trending Video',
+        privac: 'Book a Trip',
+        terms: 'Visit Gallery',
+    },
+    {
+        logo: 'USEFUL LINKS',
+        abaot: 'Buy this theme',
+        contact: 'Drile Landing',
+        privac: 'Documentation',
+        terms: 'Video tutorial',
+    },
+    {
+        logo: 'FOLLOW US',
+        abaot: 'Facebook',
+        contact: 'Twitter',
+        privac: 'Instagram',
+        terms: '',
+    },
+    
+]
+
+
+
+
+data.forEach((item) =>{
+    footerJs.innerHTML +=`
    
-    <div class = "yunalishlar">
-    <p> ${item.bolim} </p>
-    <a href="#">${item.info}</a>
+    <div class="yonalish">
+    <p>${item.logo}</p>
+    <a href="#">${item.abaot}</a>
     <a href="#">${item.contact}</a>
-    <a href="#">${item.privacy}</a>
+    <a href="#">${item.privac}</a>
     <a href="#">${item.terms}</a>
     </div>
-    
-
-
+        
     
     
-    
-    
-    
-    
-    </div>
-    <div class = "end">
-    <a href="#">© Copyright 2022 | drile | All right reserved.</a>
-    </div>
     
     `
+
 })
 
