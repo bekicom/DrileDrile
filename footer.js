@@ -1,11 +1,11 @@
 const footer = document.querySelector("footer");
-const footerJs = document.querySelector(".footerJs")
+const footerJs = document.querySelector(".footerJs");
 
 const logo = [
     {
         logo: 'Drive'
     }
-]
+];
 
 // logo.map((iteem) =>{
 //     footer.innerHTML +=`
@@ -50,7 +50,7 @@ const data = [
         terms: '',
     },
     
-]
+];
 
 
 
@@ -71,5 +71,5 @@ data.forEach((item) =>{
     
     `
 
-})
+});
 
