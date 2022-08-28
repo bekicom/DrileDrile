@@ -2,6 +2,7 @@ let section_1 = document.querySelector(".section_1");
 
 const arr = [
     {
+        id: 1,
         center: "./img/2.png",
         malumot: "Get ready for Ourstylist chair",
         right: "./img/Vector(55).png"
