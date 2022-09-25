@@ -44,6 +44,6 @@ data.forEach((item) =>{
     carousel.innerHTML += `
     <figure>
     <img src="${item.img}" alt="">
-    </figure>
+    </figure> 
     `
 });
