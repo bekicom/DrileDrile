@@ -24,7 +24,7 @@ const data = [
         logo: 'ABOUT US', 
         abaot: 'About Us',  
         contact: 'Contact Us',
-        privac: 'Privacy Policy',
+        privac: 'Privacy Policy', 
         terms: 'Terms of Service',
     },
     
