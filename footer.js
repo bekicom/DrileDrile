@@ -18,7 +18,7 @@ const logo = [
 
 
 
-
+ 
 const data = [
     {
         logo: 'ABOUT US', 
