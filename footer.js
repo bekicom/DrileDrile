@@ -21,7 +21,7 @@ const logo = [
 
 const data = [
     {
-        logo: 'ABOUT US',
+        logo: 'ABOUT US', 
         abaot: 'About Us',
         contact: 'Contact Us',
         privac: 'Privacy Policy',
