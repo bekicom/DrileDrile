@@ -22,7 +22,7 @@ const logo = [
 const data = [
     {
         logo: 'ABOUT US', 
-        abaot: 'About Us',
+        abaot: 'About Us',  
         contact: 'Contact Us',
         privac: 'Privacy Policy',
         terms: 'Terms of Service',
